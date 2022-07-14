@@ -1,0 +1,654 @@
+
+@font-face {
+    font-family: 'orangekid';
+    src: url(../fonts/orange_kid/orange_kid.ttf);
+}
+@font-face {
+    font-family: 'silkscreen';
+    src: url(../fonts/silkscreen/slkscr.ttf);
+}
+@font-face {
+    font-family: 'silkscreen bold';
+    src: url(../fonts/silkscreen/slkscrb.ttf);
+}
+@font-face {
+    font-family: 'silkscreen Expanded';
+    src: url(../fonts/silkscreen/slkscre.ttf);
+}
+@font-face {
+    font-family: 'silkscreen Expanded Bold';
+    src: url(../fonts/silkscreen/slkscreb.ttf);
+}
+
+
+/*
+font-family: 'orangekid';
+font-family: 'silkscreen';
+font-family: 'silkscreen bold';
+font-family: 'silkscreen Expanded';
+font-family: 'silkscreen Expanded Bold';
+*/
+
+html, body{
+    margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+	font-family: 'orangekid';
+	background-color: #4d2f6b;
+	color: #fff;
+	overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media (min-width: 1400px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+/* TITLE STYLE */
+.club-title{
+    padding: 30px 0;
+}
+.club-title h2 {
+	text-align: center;
+	font-size: 50px;
+	font-family: 'silkscreen bold';
+	color: #fff;
+    margin-bottom: 0;
+}
+
+.sec-desc .club-title h2 {
+	margin-bottom: 28px;
+}
+.sec-desc .club-title .club-title-copy {
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+.sec-desc .club-title .club-title-copy p {
+	font-size: 30px;
+	line-height: 32px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+
+/* HEADER STYLE */
+header.club-nav{
+    background-color: #4d2f6b;
+    padding: 20px 0px 15px;
+}
+header.club-nav .navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+header.club-nav .brand-wrapper{
+    flex: 0 0 auto;
+    max-width: 250px;
+}
+header.club-nav .socialnav .social-link{
+    padding: .5rem .5rem;
+}
+header.club-nav .socialnav .social-icon {
+	width: 15px;
+	height: auto;
+}
+header.club-nav .menu-toggle span {
+	width: 30px;
+	height: 4px;
+	display: block;
+	background-color: #ffffff;
+	border-radius: 40px;
+}
+header.club-nav .menu-toggle span + span {
+	margin-top: 4px;
+}
+@media (min-width:992px){
+    header.club-nav .stellarnav.desktop {
+        width: auto;
+        flex: 1;
+        display: flex;
+        justify-content: end;
+    }
+    header.club-nav .stellarnav.light{
+        background: transparent;
+    }
+    header.club-nav .stellarnav .navbar-nav {
+        flex-direction: inherit;
+    }
+    header.club-nav .stellarnav li{
+        line-height: inherit;
+    }
+    .stellarnav.desktop > ul > li > a{
+        padding: .5rem 1rem;
+        margin: 0 10px;
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .stellarnav.light > ul > li > a{
+        color: #ffffff;
+    }
+}
+.stellarnav.mobile .menu-toggle{
+    display: none;
+}
+.stellarnav.mobile .socialnav{
+    display: none;
+}
+.stellarnav.mobile.active .socialnav{
+    display: block;
+    text-align: right;
+}
+.stellarnav.mobile,
+.stellarnav.mobile.light ul {
+	background: transparent;
+}
+.stellarnav.mobile.light > ul {
+	border-top: none;
+	text-align: right;
+}
+.stellarnav.mobile > ul > li > a {
+	padding: 12px 10px;
+	color: #fff;
+}
+.stellarnav.mobile.light li a {
+	border-bottom: none;
+}
+
+/* FOOTER STYLE */
+footer.club-footer {
+	position: relative;
+	padding-bottom: 200px;
+}
+footer.club-footer{
+    background-image: url('../images/footer-bg.png');
+    background-position: center bottom;
+    background-size: 990px;
+    background-repeat: no-repeat;
+    background-color: #1a1132;
+}
+.footer-brand-wrapp{
+    padding-top: 66px;
+    padding-bottom: 50px;
+}
+footer.club-footer .logo-wrapp,
+footer.club-footer .logo-wrapp-copy{
+    margin-top: 24px;
+}
+footer.club-footer .social-wrapp,
+footer.club-footer .copyright{
+    margin-top: 40px;
+}
+footer.club-footer a.social-link{
+    display: inline-block;
+}
+footer.club-footer .social-icon {
+	margin: 0 10px;
+	width: 30px;
+	height: auto;
+}
+
+
+/* MAIN WRAPP STYLE -- ------ ------ ----- ---*/
+
+/* SBFC SECTION  */
+.sbfc-bg {
+	padding: 70px 0px;
+	position: relative;
+/*	background-attachment: fixed; */
+	background-position: center center;
+}
+
+/* CONTENT THUMB WRAPP SECTION */
+.content-thumb-wrapp {
+	padding-top: 15px;
+	padding-bottom: 40px;
+}
+.content-copy p {
+	text-align: justify;
+	font-size: 28px;
+	font-family: 'orangekid';
+	letter-spacing: 2px;
+}
+.content-thumb,
+.content-copy {
+	margin-top: 24px;
+}
+
+/* SALESOON */
+.salesoon-bg{
+    background-color: #fff600;
+    position: relative;
+    padding: 25px;
+
+    margin-top: 60px;
+}
+.salesoon-bg h2{
+    font-family: 'silkscreen bold';
+    font-size: 50px;
+    line-height: 30px;
+    color: #000;
+}
+.salesoon-bg .soon-text p{
+    color: #000;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 0%;
+    letter-spacing: 2px;
+}
+
+.cw-listing,
+.cw-copy {
+	color: #000;
+	font-size: 25px;
+    line-height: 25px;
+}
+.cw-listing ol {
+	position: relative;
+	padding-left: 0px;
+	list-style: none;
+}
+.cw-listing li {
+	font-size: inherit;
+	line-height: inherit;
+	font-family: 'orangekid';
+	font-weight: bold;
+	letter-spacing: 2px;
+	position: relative;
+	counter-increment: my-awesome-counter;
+}
+.cw-listing ol > li::before{
+	content: counter(my-awesome-counter)'.';
+	margin-right: 5px;
+}
+@media (min-width:992px){
+	.cw-listing ol > li::before{
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-right: 0px;
+	}
+	.cw-listing li {
+		padding-left: 25px;
+	}
+}
+.cw-copy {
+	text-align: right;
+}
+.cw-copy p{
+    font-size: inherit;
+	line-height: inherit;
+    margin-bottom: 5px;
+	letter-spacing: 2px;
+}
+.cw-button .btn {
+	font-family: 'silkscreen';
+	font-size: 35px;
+	line-height: 35px;
+	border-width: 5px;
+	border-radius: 0px;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.cw-mflex {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+.cw-mint .number {
+	border: 5px solid #000;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	max-width: 170px;
+}
+.cw-mint .btn{
+    font-family: 'silkscreen';
+	font-size: 35px;
+	line-height: 35px;
+	border-width: 5px;
+	border-radius: 0px;
+    margin-left:-5px;
+    height: 80px;
+    max-width: 200px;
+    width: 100%;
+}
+.cw-mint .minus, .cw-mint .plus {
+	width: 40px;
+	display: inline-block;
+	text-align: center;
+	height: 100%;
+	font-family: 'silkscreen';
+	color: #000;
+	font-size: 30px;
+    cursor: pointer;
+}
+.cw-mint .minus, .cw-mint .plus {
+	border: none;
+	background-color: transparent;
+	line-height: 70px;
+	box-shadow: none;
+}
+.cw-mint input {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	text-align: center;
+	height: 100%;
+    font-size: 30px;
+    font-family: 'silkscreen';
+	width: calc(100% - 80px);
+}
+.cw-mint input:hover,
+.cw-mint input:focus{
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+
+/* ICON TEXT WRAPP */
+.icon-text-wrapp {
+	margin-top: 50px;
+}
+.icon-w {
+	min-height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text-w h4 {
+    text-align: center;
+	margin-bottom: 0;
+	padding: 0px 40px;
+	font-size: 24px;
+	line-height: 25px;
+    letter-spacing: 2px;
+}
+
+
+/* ROADMAP SECTION */
+@media (min-width:899px){
+    .roadmap .container{
+        max-width: 820px;
+    }
+}
+.roadmap .club-title{
+    padding-bottom: 50px;
+}
+.roadmap .club-title .club-title-copy {
+	max-width: 710px;
+}
+.percentage-row .row {
+	margin-top: 20px;
+}
+.percentage-text h5 {
+	color: #fff600;
+	font-size: 50px;
+	line-height: 36px;
+}
+.percentage-desc p {
+	font-size: 30px;
+	line-height: 39px;
+	letter-spacing: 2px;
+    text-align: justify;
+}
+
+
+/* THE SPECS */
+.the-specs{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.specs-bg-text {
+	padding-top: 10px;
+	position: relative;
+}
+
+/* THE TEAM */
+.the-team{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.the-team.sec-desc .club-title h2 {
+	margin-bottom: 0;
+}
+.team-info-copy {
+	text-align: center;
+	font-size: 30px;
+	line-height: 32px;
+	letter-spacing: 2px;
+	margin-bottom: 50px;
+}
+.team-text {
+	text-align: center;
+	padding: 0px 6px;
+}
+.team-icon {
+	margin-bottom: 30px;
+}
+.team-icon img.img-fluid {
+	max-height: 250px;
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
+}
+.team-text h4{
+    color: #fff600;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+.team-text p{
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+
+
+/* conntect page style */
+.btn.btn-theme {
+	background-color: #8026da;
+	color: #fff;
+	border-color: #8026da;
+	border-radius: 0px;
+	min-width: 200px;
+	font-size: 26px;
+	font-family: 'silkscreen';
+	letter-spacing: -3px;
+	padding: 4px 20px;
+	box-shadow: none;
+}
+.btn.btn-grey {
+	background-color: #b4b4b0;
+	color: #656565;
+	border-color: #b4b4b0;
+	border-radius: 0px;
+	min-width: 200px;
+	font-size: 26px;
+	font-family: 'silkscreen';
+	letter-spacing: -3px;
+	padding: 4px 20px;
+	box-shadow: none;
+}
+.nfts-wrapp{
+	padding-top: 60px;
+	padding-bottom: 120px;
+}
+.nfts-title h2 {
+	margin-bottom: 0;
+	font-size: 40px;
+	font-family: 'silkscreen bold';
+	letter-spacing: -3px;
+	line-height: 35px;
+}
+.nftstitle-links {
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.nfts-dolls .nfts-lox.lox-button {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.nfts-buttons .btn.btn-theme {
+	min-width: unset;
+}
+.nfts-dolls .nfts-lox {
+	font-size: 26px;
+	font-family: 'silkscreen';
+	letter-spacing: 0px;
+}
+.nfts-dolls .nfts-lox.lox-two,
+.nfts-dolls .nfts-lox.lox-three {
+	font-size: 20px;
+}
+.nfts-dolls .nfts-lox span {
+	color: #909090;
+	margin-left: 25px;
+}
+.nfts-dolls .nfts-lox.lox-one span {
+	color: #fff600;
+}
+
+.stake-thumb {
+	display: block;
+	margin-bottom: 10px;
+}
+.stake-thumb a.stake-url {
+	display: block;
+}
+.stake-thumb a.stake-url > img{
+	width: 100%;
+}
+.stake-box {
+	margin-top: 24px;
+}
+.stake-box .stake-title {
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.stake-title h3 {
+	margin-bottom: 0;
+	font-size: 30px;
+	font-family: 'silkscreen';
+	letter-spacing: -3px;
+}
+.stake-button .btn.btn-theme {
+	width: 100%;
+}
+
+.stake-title .form-check-input {
+	width: 30px;
+	height: 30px;
+	background-color: #323232;
+	border: 1px solid #323232;
+	border-radius: 0px;
+	box-shadow: none;
+	cursor: pointer;
+}
+.stake-title .form-check-input:checked {
+	background-color: #323232;
+	border-color: #323232;
+}
+.stake-title .form-check-input:checked[type="checkbox"] {
+	background-image: url(../images./check-green.png);
+	background-size: 20px auto;
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+	.nfts-dolls .nfts-lox {
+		white-space: nowrap;
+	}
+}
+@media only screen and (max-width:991px){
+	.nfts-wrapp {
+		padding-top: 40px;
+		padding-bottom: 80px;
+	}
+	.nfts-title {
+		text-align: center;
+	}
+	.nfts-box .nfts-dolls {
+		margin-bottom: 30px;
+		text-align: center;
+		margin-top: 15px !important;
+	}
+	.nfts-box .nfts-dolls {
+		display: flex;
+		flex-direction: column;
+	}
+	.nfts-box .nfts-dolls .lox-one {
+		order: 1;
+	}
+	.nfts-box .nfts-dolls .lox-button {
+		order: 2;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.nfts-box .nfts-dolls .lox-two{
+		order: 3;
+	}
+	.nfts-box .nfts-dolls .lox-three{
+		order: 4;
+	}
+}
+@media only screen and (max-width:767px){
+	.nfts-box .nfts-dolls .lox-one strong {
+		display: block;
+	}
+}
+@media only screen and (max-width:575px){
+	.btn.btn-grey, .btn.btn-theme {
+		font-size: 20px;
+		min-width: unset;
+	}
+	.stake-title h3 {
+		font-size: 24px;
+	}
+	.nfts-dolls .nfts-lox.lox-two, 
+	.nfts-dolls .nfts-lox.lox-three {
+		font-size: 16px;
+	}
+	.nfts-box .nfts-dolls {
+		margin-bottom: 15px;
+		margin-top: 20px !important;
+	}
+	.nfts-box .nfts-dolls .lox-button .btn.btn-theme {
+		letter-spacing: -1px;
+		min-width: 120px;
+	}
+}
+@media only screen and (max-width:379px){
+	.nfts-title h2 {
+		font-size: 34px;
+	}
+	.nfts-dolls .nfts-lox.lox-one {
+		font-size: 20px;
+	}
+	.btn.btn-grey, .btn.btn-theme {
+		font-size: 16px;
+	}
+	.stake-title h3 {
+		font-size: 20px;
+	}
+	.stake-title .form-check-input {
+		width: 20px;
+		height: 20px;
+	}
+	.stake-title .form-check-input:checked[type="checkbox"] {
+		background-size: 14px auto;
+	}
+	.nfts-dolls .nfts-lox.lox-two, .nfts-dolls .nfts-lox.lox-three {
+		font-size: 13px;
+	}
+}

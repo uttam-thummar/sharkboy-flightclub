@@ -1,0 +1,261 @@
+
+@media (max-width:1199px){
+    .text-w h4 {
+        padding: 0px 10px;
+    }
+    .content-thumb-wrapp .content-copy.pe-5 {
+        padding-right: 0px !important;
+    }
+    .salesoon-bg h2,
+    .club-title h2 {
+        font-size: 40px;
+    }
+}
+@media (max-width:1024px){
+    /* .sbfc-bg {
+        max-height: 255px;
+    } */
+}
+@media (max-width:991px){
+    .row.revers-tab{
+        flex-direction: column-reverse;
+    }
+    .content-thumb-wrapp .content-thumb {
+        text-align: center;
+    }
+    .sec-desc .club-title h2 {
+        margin-bottom: 15px;
+    }
+    .roadmap .club-title {
+        padding-bottom: 30px;
+    }
+    .percentage-row .row {
+        margin-top: 14px;
+    }
+    .team-item {
+        margin-top: 30px;
+    }
+    .team-icon {
+        margin-bottom: 15px;
+    }
+    .team-info-copy, .percentage-desc p,
+    .sec-desc .club-title .club-title-copy p,
+    .team-text p, .team-text h4,
+    .sec-whitelist .club-title-copy p,
+    .sec-evalution .club-title .club-title-copy p,
+    .evol-text-copy p, .faq--acc .panel p {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .content-copy p,
+    .salesoon-bg .soon-text p {
+        font-size: 24px;
+    }
+    .percentage-text h5 {
+        font-size: 36px;
+        line-height: 30px;
+    }
+    .specs-text > div {
+        font-size: 24px;
+        line-height: 30px;
+        max-width: 160px;
+    }
+    .icon-text-wrapp {
+        margin-top: 30px;
+    }
+    .salesoon-bg {
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .salesoon-bg h2, .club-title h2 {
+        font-size: 36px;
+    }
+    .evol-text-copy h3{
+        font-size: 26px;
+    }
+    .the-specs, .the-team, .content-thumb-wrapp {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .team-info-copy {
+        margin-bottom: 20px;
+    }
+    .cw-listing {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .cw-listing ol {
+        padding-left: 0;
+    }
+    .cw-copy {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .cw-button .btn,
+    .cw-mint .btn {
+        font-size: 28px;
+    }
+    .cw-mint .minus, .cw-mint .plus, .cw-mint input{
+        font-size: 28px;
+    }
+    .team-icon img.img-fluid {
+        max-height: 330px;
+    }
+    .edition-i--link .edition-i--text {
+        font-size: 30px;
+    }
+    .edition-slide .arrow {
+        width: 42px;
+        height: 57px;
+    }
+    .sec-evalution {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .tcgame {
+        margin-top: 70px;
+    }
+    .evol-text-width {
+        max-width: 100%;
+    }
+    .evol-thumb {
+        margin-bottom: 26px;
+    }
+    .col-reverse-md{
+        flex-direction: column-reverse !important;
+    }
+    .sec-evalution .club-title,
+    .editions-sec .club-title,
+    .sec-benzinga .club-title {
+        padding-bottom: 40px;
+    }
+    .benzinga-bg-text > img {
+        max-width: 480px;
+        width: 100%;
+    }
+    .sharkangle-sec {
+        padding-top: 30px;
+        padding-bottom: 80px;
+    }
+    .sec-whitelist {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width:767px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .content-thumb-wrapp {
+        padding-bottom: 40px;
+    }
+    .icon-w {
+        min-height: unset;
+        margin-bottom: 20px;
+    }
+    .club-title {
+        padding: 10px 0px 10px;
+    }
+    .salesoon-bg h2, .club-title h2 {
+        font-size: 26px;
+    }
+    .content-copy p, .salesoon-bg .soon-text p {
+        font-size: 20px;
+    }
+    .team-info-copy, .percentage-desc p,
+    .sec-desc .club-title .club-title-copy p,
+    .team-text p, .team-text h4,
+    .faq--acc .panel p, .evol-text-copy p,
+    .sec-whitelist .club-title-copy p,
+    .sec-evalution .club-title .club-title-copy p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .specs-text > div {
+        font-size: 20px;
+        line-height: 26px;
+        max-width: 160px;
+    }
+    .salesoon-bg {
+        padding: 15px;
+        margin-top: 20px;
+    }
+    .specs-item-four, .specs-item-three {
+        display: none;
+    }
+    .specs-bg .img-fluid {
+        width: 100%;
+    }
+    .specs-item-two, .specs-item-one {
+        top: 15px;
+    }
+    .cw-button .btn,
+    .cw-mint .btn {
+        font-size: 24px;
+    }
+    .cw-mint .minus, .cw-mint .plus{
+        font-size: 20px;
+        width: 30px;
+    }
+    .cw-mint input {
+        font-size: 24px;
+        padding: 0px 3px;
+    }
+    .team-icon img.img-fluid {
+        max-height: unset;
+    }
+    .faq--acc .accordion {
+        font-size: 20px;
+        padding: 25px 40px 25px 0px;
+    }
+    .faq--acc .panel{
+        padding-left: 0px;
+    }
+    .faq--acc .accordion::after {
+        right: 14px;
+        top: 35px;
+    }
+    .sec-whitelist {
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .btn.btn-yellow,
+    .btn.btn-grey,
+    .btn.btn-dark,
+    .btn.btn-theme {
+        font-size: 20px;
+    }
+}
+@media (max-width:767px){
+    .salesoon-bg, .roadmap {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .the-specs.sec-desc, .the-team {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .sharkangle-sec .specs-bg .img-fluid {
+        max-width: 250px;
+    }
+    .sharkangle-sec {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .sec-whitelist .club-title-copy.mt-5 {
+        margin-top: 1rem !important;
+    }
+}
+@media (max-width:575px){
+    header.club-nav .brand-wrapper {
+        max-width: 200px;
+    }
+    .edition-slide .owl-item:nth-child(2n+1) {
+        margin-top: 25px;
+    }
+    .sharkangle-sec {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+}

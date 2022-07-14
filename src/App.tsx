@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Home from './app/components/Home';
+import Mint from './app/components/Mint';
+import MyNfts from './app/components/MyNfts';
+import Roadmap from './app/components/Roadmap';
+import Whitelist from './app/components/Whitelist';
+import Layout from './app/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route path='/' element={<Home />} />
+          <Route path='/mint' element={<Mint />} />
+          <Route path='/roadmap' element={<Roadmap />} />
+          <Route path='/whitelist' element={<Whitelist />} />
+          <Route path='/my-nfts' element={<MyNfts />} />
+          <Route index element={<Home />} />
+        </Route>
+      </Routes>
+    </>
   );
 }
 

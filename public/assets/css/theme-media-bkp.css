@@ -1,0 +1,169 @@
+
+@media (max-width:1199px){
+    .text-w h4 {
+        padding: 0px 10px;
+    }
+    .content-thumb-wrapp .content-copy.pe-5 {
+        padding-right: 0px !important;
+    }
+    .salesoon-bg h2,
+    .club-title h2 {
+        font-size: 40px;
+    }
+}
+@media (max-width:991px){
+    .row.revers-tab{
+        flex-direction: column-reverse;
+    }
+    .content-thumb-wrapp .content-thumb {
+        text-align: center;
+    }
+    .sec-desc .club-title h2 {
+        margin-bottom: 15px;
+    }
+    .roadmap .club-title {
+        padding-bottom: 30px;
+    }
+    .percentage-row .row {
+        margin-top: 14px;
+    }
+    .team-item {
+        margin-top: 30px;
+    }
+    .team-icon {
+        margin-bottom: 15px;
+    }
+    .team-info-copy, .percentage-desc p,
+    .sec-desc .club-title .club-title-copy p,
+    .team-text p, .team-text h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .content-copy p,
+    .salesoon-bg .soon-text p {
+        font-size: 24px;
+    }
+    .percentage-text h5 {
+        font-size: 36px;
+        line-height: 30px;
+    }
+    .specs-text > div {
+        font-size: 24px;
+        line-height: 30px;
+        max-width: 160px;
+    }
+    .icon-text-wrapp {
+        margin-top: 30px;
+    }
+    .salesoon-bg {
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .salesoon-bg h2, .club-title h2 {
+        font-size: 36px;
+    }
+    .the-specs, .the-team, .content-thumb-wrapp {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .team-info-copy {
+        margin-bottom: 20px;
+    }
+    .cw-listing {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .cw-listing ol {
+        padding-left: 0;
+    }
+    .cw-copy {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .cw-button .btn,
+    .cw-mint .btn {
+        font-size: 28px;
+    }
+    .cw-mint .minus, .cw-mint .plus, .cw-mint input{
+        font-size: 28px;
+    }
+    .team-icon img.img-fluid {
+        max-height: 330px;
+    }
+}
+@media (max-width:767px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .content-thumb-wrapp {
+        padding-bottom: 40px;
+    }
+    .icon-w {
+        min-height: unset;
+        margin-bottom: 20px;
+    }
+    .club-title {
+        padding: 10px 0px 10px;
+    }
+    .salesoon-bg h2, .club-title h2 {
+        font-size: 26px;
+    }
+    .content-copy p, .salesoon-bg .soon-text p {
+        font-size: 20px;
+    }
+    .team-info-copy, .percentage-desc p,
+    .sec-desc .club-title .club-title-copy p,
+    .team-text p, .team-text h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .specs-text > div {
+        font-size: 20px;
+        line-height: 26px;
+        max-width: 160px;
+    }
+    .salesoon-bg {
+        padding: 15px;
+        margin-top: 20px;
+    }
+    .specs-item-four, .specs-item-three {
+        display: none;
+    }
+    .specs-bg .img-fluid {
+        width: 100%;
+    }
+    .specs-item-two, .specs-item-one {
+        top: 15px;
+    }
+    .cw-button .btn,
+    .cw-mint .btn {
+        font-size: 24px;
+    }
+    .cw-mint .minus, .cw-mint .plus{
+        font-size: 20px;
+        width: 30px;
+    }
+    .cw-mint input {
+        font-size: 24px;
+        padding: 0px 3px;
+    }
+    .team-icon img.img-fluid {
+        max-height: unset;
+    }
+}
+@media (max-width:767px){
+    .salesoon-bg, .roadmap {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .the-specs.sec-desc, .the-team {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+@media (max-width:575px){
+    header.club-nav .brand-wrapper {
+        max-width: 200px;
+    }
+}
